@@ -20,9 +20,9 @@
                         <img class="icon" src="img/code.svg" alt="#">
 
                         <nav class="nav">
-                            <a class="nav__link active" href="index.html">Home</a>
+                            <a class="nav__link" href="index.html">Home</a>
                             <a class="nav__link" href="about.html">About me</a>
-                            <a class="nav__link" href="contacts.html">Contacts</a>
+                            <a class="nav__link active" href="contacts.html">Contacts</a>
                         </nav>
                     </div> 
             </div>
@@ -30,17 +30,20 @@
            
         <div class="container">
             <main class="content">
-                <div class="subtitle"><p>My name is</p></div>
+                <h1 class="title contacts">Write me a <span>messsage</span></h1>
                 
-                <h1 class="title">Vladimir Kanarsky and I’m <span>Web Developer</span></h1>
-                
-                <div class="text">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like</p>
+                <div class="text contacts">
+                    <p>Many desktop publishing packages and web page editors now use Lorem</p>
                 </div>
                 
-                <div class="button__block">
-                    <a class="button" href="contacts.html">Contact me</a>
-                </div>
+                <form class="form" action="#">
+                    <input class="form__input" type="text" name="name" placeholder="Name">
+                    <input class="form__input" type="email" name="email" placeholder="Email">
+                    <input class="form__input" type="number" name="number" placeholder="Number">
+                    <textarea class="form__input textarea" name="textarea" placeholder="Message"></textarea>
+
+                    <button class="button newsize" method="post">Send message</button>
+                </form>
             </main>
         </div>   
         
